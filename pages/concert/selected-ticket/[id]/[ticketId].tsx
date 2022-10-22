@@ -178,7 +178,7 @@ const SelectedTicket = () => {
                                 colorMode="light"
                                 className="md:mt-0 mt-5"
                             >
-                                Mint
+                                Buy Now
                             </Web3Button>
                         </div>
                     </div>
