@@ -144,14 +144,14 @@ const SelectedTicket = () => {
                             />
                         </div>
 
-                        <div className="mt-5">
+                        {/* <div className="mt-5">
                             <Button content="" type="button" className="bg-white w-full text-black flex items-center rounded-3xl py-0 md:flex-row flex-col p-3">
                                 <div>
                                     <img src="/images/metamask_icon.svg" className="w-[50px]" />
                                 </div>
                                 <p className="-mt-[5px] font-bold md:ml-5">Connect metamask wallet</p>
                             </Button>
-                        </div>
+                        </div> */}
 
                         <div className="mt-5 flex md:flex-row flex-col items-center">
                             <p>Belum memiliki metamask wallet?
@@ -165,7 +165,7 @@ const SelectedTicket = () => {
                         <div className="mt-5 flex items-center justify-between md:flex-row flex-col">
                             <div className="md:text-left text-center">
                                 <h3 className="font-bold text-2xl">Total Cost</h3>
-                                <h5 className="text-2xl">ETH. 5</h5>
+                                <h5 className="text-2xl">0.01 ETH</h5>
                             </div>
                             <Web3Button
                                 contractAddress={items.token}
